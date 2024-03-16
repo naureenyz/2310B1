@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+<style>
+#con{
+    display:none ;
+    /* visibility: ; */
+width: 300px;
+height: 300px;
+background-color: pink;
+
+
+}
+</style>
+</head>
+<body>
+    <p id="abc"></p>
+
+<button onclick="abc()">Click here</button>
+<!-- <h1 id="heading"></h1> -->
+<div id="con" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quos, qui temporibus voluptatibus rerum optio eligendi itaque molestiae a delectus!</div>
+    <script>
+    document.getElementById('abc').innerHTML="welcome to JS";
+
+
+function abc(){
+    // document.getElementById('heading').innerHTML="JAVASCRIPT";
+    // document.getElementById('heading').style.color="red";
+    document.getElementById('abc').style.color="green";
+    document.getElementById('con').style.display="block";
+}
+
+
+    
+    </script>
+</body>
+</html>
